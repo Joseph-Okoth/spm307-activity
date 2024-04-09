@@ -1,4 +1,4 @@
-# Linear and Non-linear Equations
+# LINEAR AND NONLINEAR EQUATIONS
 
 ## 1. Create a Python program for solving the simultaneous equations below using Gaussian elimination and back-substitution: $${2w+x+4y+z=-4,}$$ $${3w+4x-y-z=3,}$$ $${w-4x+y+5z=9,}$$ $${2w-2x+y+3z=7.}$$
 
@@ -14,7 +14,8 @@
 ## a) Plot $$P(x)$$ from $$x=0$$ to $$x=1$$ and then write a program using Newton's method to find the positions of all six roots with at least ten decimal places of accuracy.
 ## b) Modify the program to use the secant method to solve equation (3).
 
-# Testing & Requirements
+
+# TESTING & REQUIREMENTS
 
 ## Test Online:
 Click the following link to test the solution 
@@ -35,5 +36,4 @@ https://colab.research.google.com/drive/1Aw_PVxv1igP3YG35AQOMuCRQ_5x5r9-p?usp=sh
 
 Example
 
-    ```bash
-    python3 ./spm307-activity/activity3/binarysearch.py
+    ```python3 ./spm307-activity/activity3/binarysearch.py```
