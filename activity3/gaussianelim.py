@@ -1,12 +1,12 @@
-from numpy import array,empty
+from numpy import array,empty #importing the necessary libraries
 
 A = array([[2,1,4,1],
            [3,4,-1,-1],
            [1,-4,1,5],
-           [2,-2,1,3]],float)
+           [2,-2,1,3]],float) #defining the matrix A
 
-V = array([-4,3,9,7],float)
-N = len(V)
+V = array([-4,3,9,7],float) #defining the vector V
+N = len(V) #length of the vector V
 
 #Gaussian Elimination
 for m in range(N):

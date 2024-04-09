@@ -13,7 +13,7 @@ for m in range(N):
     # Find the pivot row with the largest absolute value in the current column
     pivot_row = m
     for i in range(m + 1, N):
-        if abs(A[i, m]) > abs(A[pivot_row, m]):
+        if abs(A[i, m]) > abs(A[pivot_row, m]): #abs() returns the absolute value of a number
             pivot_row = i
 
     # Swap rows if necessary
